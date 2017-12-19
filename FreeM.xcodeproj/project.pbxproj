@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F52F181FE82DA100B532A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F171FE82DA100B532A3 /* AppDelegate.swift */; };
+		03F52F1A1FE82DA100B532A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F191FE82DA100B532A3 /* ViewController.swift */; };
+		03F52F201FE82DA100B532A3 /* FreeM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F1E1FE82DA100B532A3 /* FreeM.xcdatamodeld */; };
+		03F52F221FE82DA100B532A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F52F211FE82DA100B532A3 /* Assets.xcassets */; };
+		03F52F251FE82DA100B532A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F52F231FE82DA100B532A3 /* LaunchScreen.storyboard */; };
+		03F52F301FE82DA100B532A3 /* FreeMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F2F1FE82DA100B532A3 /* FreeMTests.swift */; };
+		03F52F3B1FE82DA100B532A3 /* FreeMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F3A1FE82DA100B532A3 /* FreeMUITests.swift */; };
+		03F52F491FE835F800B532A3 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F481FE835F800B532A3 /* APIService.swift */; };
+		03F52F4B1FE8370E00B532A3 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F4A1FE8370E00B532A3 /* AppConstants.swift */; };
+		3E3C0960E8413404912A7CEA /* Pods_FreeMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A8F2F5FA07D40A95832249 /* Pods_FreeMUITests.framework */; };
+		B6325710890E3BE0374C7B2B /* Pods_FreeMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241BCE9401A7C71E51EE2B8C /* Pods_FreeMTests.framework */; };
+		FB6186B109E1506160831722 /* Pods_FreeM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA69D788BFCE6733CF7E51BF /* Pods_FreeM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F52F2C1FE82DA100B532A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F52F0C1FE82DA100B532A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F52F131FE82DA100B532A3;
+			remoteInfo = FreeM;
+		};
+		03F52F371FE82DA100B532A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F52F0C1FE82DA100B532A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F52F131FE82DA100B532A3;
+			remoteInfo = FreeM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F52F141FE82DA100B532A3 /* FreeM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F52F171FE82DA100B532A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03F52F191FE82DA100B532A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03F52F1F1FE82DA100B532A3 /* FreeM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreeM.xcdatamodel; sourceTree = "<group>"; };
+		03F52F211FE82DA100B532A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F52F241FE82DA100B532A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03F52F261FE82DA100B532A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F52F2B1FE82DA100B532A3 /* FreeMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F52F2F1FE82DA100B532A3 /* FreeMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeMTests.swift; sourceTree = "<group>"; };
+		03F52F311FE82DA100B532A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F52F361FE82DA100B532A3 /* FreeMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F52F3A1FE82DA100B532A3 /* FreeMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeMUITests.swift; sourceTree = "<group>"; };
+		03F52F3C1FE82DA100B532A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F52F481FE835F800B532A3 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		03F52F4A1FE8370E00B532A3 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		241BCE9401A7C71E51EE2B8C /* Pods_FreeMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C601F4CC117B5A7F72A4FB6 /* Pods-FreeMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeMUITests/Pods-FreeMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6CC68A72744CBDA90E05E546 /* Pods-FreeM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeM.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeM/Pods-FreeM.release.xcconfig"; sourceTree = "<group>"; };
+		7805C771C815E4F93BC60DC6 /* Pods-FreeMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeMUITests/Pods-FreeMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		85A8F2F5FA07D40A95832249 /* Pods_FreeMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CC29E22D7647A5DDE64335 /* Pods-FreeMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeMTests/Pods-FreeMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA69D788BFCE6733CF7E51BF /* Pods_FreeM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B1021A994ED652C43B2C07 /* Pods-FreeMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeMTests/Pods-FreeMTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFA0A8D1266FEFDADB98C151 /* Pods-FreeM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeM/Pods-FreeM.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F52F111FE82DA100B532A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6186B109E1506160831722 /* Pods_FreeM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F52F281FE82DA100B532A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6325710890E3BE0374C7B2B /* Pods_FreeMTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F52F331FE82DA100B532A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3C0960E8413404912A7CEA /* Pods_FreeMUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F52F0B1FE82DA100B532A3 = {
+			isa = PBXGroup;
+			children = (
+				03F52F161FE82DA100B532A3 /* FreeM */,
+				03F52F2E1FE82DA100B532A3 /* FreeMTests */,
+				03F52F391FE82DA100B532A3 /* FreeMUITests */,
+				03F52F151FE82DA100B532A3 /* Products */,
+				789AAA0BE2305738174E6BC6 /* Pods */,
+				48D84FDCAD646F9881914ACB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03F52F151FE82DA100B532A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F52F141FE82DA100B532A3 /* FreeM.app */,
+				03F52F2B1FE82DA100B532A3 /* FreeMTests.xctest */,
+				03F52F361FE82DA100B532A3 /* FreeMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F52F161FE82DA100B532A3 /* FreeM */ = {
+			isa = PBXGroup;
+			children = (
+				03F52F481FE835F800B532A3 /* APIService.swift */,
+				03F52F4A1FE8370E00B532A3 /* AppConstants.swift */,
+				03F52F171FE82DA100B532A3 /* AppDelegate.swift */,
+				03F52F191FE82DA100B532A3 /* ViewController.swift */,
+				03F52F211FE82DA100B532A3 /* Assets.xcassets */,
+				03F52F231FE82DA100B532A3 /* LaunchScreen.storyboard */,
+				03F52F261FE82DA100B532A3 /* Info.plist */,
+				03F52F1E1FE82DA100B532A3 /* FreeM.xcdatamodeld */,
+			);
+			path = FreeM;
+			sourceTree = "<group>";
+		};
+		03F52F2E1FE82DA100B532A3 /* FreeMTests */ = {
+			isa = PBXGroup;
+			children = (
+				03F52F2F1FE82DA100B532A3 /* FreeMTests.swift */,
+				03F52F311FE82DA100B532A3 /* Info.plist */,
+			);
+			path = FreeMTests;
+			sourceTree = "<group>";
+		};
+		03F52F391FE82DA100B532A3 /* FreeMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03F52F3A1FE82DA100B532A3 /* FreeMUITests.swift */,
+				03F52F3C1FE82DA100B532A3 /* Info.plist */,
+			);
+			path = FreeMUITests;
+			sourceTree = "<group>";
+		};
+		48D84FDCAD646F9881914ACB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA69D788BFCE6733CF7E51BF /* Pods_FreeM.framework */,
+				241BCE9401A7C71E51EE2B8C /* Pods_FreeMTests.framework */,
+				85A8F2F5FA07D40A95832249 /* Pods_FreeMUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		789AAA0BE2305738174E6BC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFA0A8D1266FEFDADB98C151 /* Pods-FreeM.debug.xcconfig */,
+				6CC68A72744CBDA90E05E546 /* Pods-FreeM.release.xcconfig */,
+				A8CC29E22D7647A5DDE64335 /* Pods-FreeMTests.debug.xcconfig */,
+				C6B1021A994ED652C43B2C07 /* Pods-FreeMTests.release.xcconfig */,
+				7805C771C815E4F93BC60DC6 /* Pods-FreeMUITests.debug.xcconfig */,
+				5C601F4CC117B5A7F72A4FB6 /* Pods-FreeMUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F52F131FE82DA100B532A3 /* FreeM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F52F3F1FE82DA100B532A3 /* Build configuration list for PBXNativeTarget "FreeM" */;
+			buildPhases = (
+				DC59132DBB2CA57E34A1FB14 /* [CP] Check Pods Manifest.lock */,
+				03F52F101FE82DA100B532A3 /* Sources */,
+				03F52F111FE82DA100B532A3 /* Frameworks */,
+				03F52F121FE82DA100B532A3 /* Resources */,
+				481C85A449DD7E5176491A84 /* [CP] Embed Pods Frameworks */,
+				EA2E87514FFF02022EC15E95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeM;
+			productName = FreeM;
+			productReference = 03F52F141FE82DA100B532A3 /* FreeM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03F52F2A1FE82DA100B532A3 /* FreeMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F52F421FE82DA100B532A3 /* Build configuration list for PBXNativeTarget "FreeMTests" */;
+			buildPhases = (
+				9C15F38336B2F6ADC44EE966 /* [CP] Check Pods Manifest.lock */,
+				03F52F271FE82DA100B532A3 /* Sources */,
+				03F52F281FE82DA100B532A3 /* Frameworks */,
+				03F52F291FE82DA100B532A3 /* Resources */,
+				823A1EE68B12F366F6CC4C3D /* [CP] Embed Pods Frameworks */,
+				FBE73090188AC48965FC43F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F52F2D1FE82DA100B532A3 /* PBXTargetDependency */,
+			);
+			name = FreeMTests;
+			productName = FreeMTests;
+			productReference = 03F52F2B1FE82DA100B532A3 /* FreeMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03F52F351FE82DA100B532A3 /* FreeMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F52F451FE82DA100B532A3 /* Build configuration list for PBXNativeTarget "FreeMUITests" */;
+			buildPhases = (
+				04501E330C35FE8A30D1E8D8 /* [CP] Check Pods Manifest.lock */,
+				03F52F321FE82DA100B532A3 /* Sources */,
+				03F52F331FE82DA100B532A3 /* Frameworks */,
+				03F52F341FE82DA100B532A3 /* Resources */,
+				7A1926AF1F258D2391C912DD /* [CP] Embed Pods Frameworks */,
+				189CA2A6AEB298657BFCB9EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F52F381FE82DA100B532A3 /* PBXTargetDependency */,
+			);
+			name = FreeMUITests;
+			productName = FreeMUITests;
+			productReference = 03F52F361FE82DA100B532A3 /* FreeMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F52F0C1FE82DA100B532A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Sachin S P";
+				TargetAttributes = {
+					03F52F131FE82DA100B532A3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					03F52F2A1FE82DA100B532A3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03F52F131FE82DA100B532A3;
+					};
+					03F52F351FE82DA100B532A3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03F52F131FE82DA100B532A3;
+					};
+				};
+			};
+			buildConfigurationList = 03F52F0F1FE82DA100B532A3 /* Build configuration list for PBXProject "FreeM" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F52F0B1FE82DA100B532A3;
+			productRefGroup = 03F52F151FE82DA100B532A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F52F131FE82DA100B532A3 /* FreeM */,
+				03F52F2A1FE82DA100B532A3 /* FreeMTests */,
+				03F52F351FE82DA100B532A3 /* FreeMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F52F121FE82DA100B532A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F52F251FE82DA100B532A3 /* LaunchScreen.storyboard in Resources */,
+				03F52F221FE82DA100B532A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F52F291FE82DA100B532A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F52F341FE82DA100B532A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04501E330C35FE8A30D1E8D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		189CA2A6AEB298657BFCB9EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeMUITests/Pods-FreeMUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		481C85A449DD7E5176491A84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FreeM/Pods-FreeM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeM/Pods-FreeM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A1926AF1F258D2391C912DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeMUITests/Pods-FreeMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		823A1EE68B12F366F6CC4C3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeMTests/Pods-FreeMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C15F38336B2F6ADC44EE966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC59132DBB2CA57E34A1FB14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA2E87514FFF02022EC15E95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeM/Pods-FreeM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE73090188AC48965FC43F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeMTests/Pods-FreeMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F52F101FE82DA100B532A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F52F4B1FE8370E00B532A3 /* AppConstants.swift in Sources */,
+				03F52F201FE82DA100B532A3 /* FreeM.xcdatamodeld in Sources */,
+				03F52F1A1FE82DA100B532A3 /* ViewController.swift in Sources */,
+				03F52F491FE835F800B532A3 /* APIService.swift in Sources */,
+				03F52F181FE82DA100B532A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F52F271FE82DA100B532A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F52F301FE82DA100B532A3 /* FreeMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F52F321FE82DA100B532A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F52F3B1FE82DA100B532A3 /* FreeMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03F52F2D1FE82DA100B532A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F52F131FE82DA100B532A3 /* FreeM */;
+			targetProxy = 03F52F2C1FE82DA100B532A3 /* PBXContainerItemProxy */;
+		};
+		03F52F381FE82DA100B532A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F52F131FE82DA100B532A3 /* FreeM */;
+			targetProxy = 03F52F371FE82DA100B532A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03F52F231FE82DA100B532A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F52F241FE82DA100B532A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03F52F3D1FE82DA100B532A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03F52F3E1FE82DA100B532A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03F52F401FE82DA100B532A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA0A8D1266FEFDADB98C151 /* Pods-FreeM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VXF2WQ4NY;
+				INFOPLIST_FILE = FreeM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freem.freem.FreeM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03F52F411FE82DA100B532A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC68A72744CBDA90E05E546 /* Pods-FreeM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VXF2WQ4NY;
+				INFOPLIST_FILE = FreeM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freem.freem.FreeM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03F52F431FE82DA100B532A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CC29E22D7647A5DDE64335 /* Pods-FreeMTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FreeMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freem.freem.FreeMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeM.app/FreeM";
+			};
+			name = Debug;
+		};
+		03F52F441FE82DA100B532A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B1021A994ED652C43B2C07 /* Pods-FreeMTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FreeMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freem.freem.FreeMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeM.app/FreeM";
+			};
+			name = Release;
+		};
+		03F52F461FE82DA100B532A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7805C771C815E4F93BC60DC6 /* Pods-FreeMUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FreeMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freem.freem.FreeMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreeM;
+			};
+			name = Debug;
+		};
+		03F52F471FE82DA100B532A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C601F4CC117B5A7F72A4FB6 /* Pods-FreeMUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FreeMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freem.freem.FreeMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreeM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F52F0F1FE82DA100B532A3 /* Build configuration list for PBXProject "FreeM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F52F3D1FE82DA100B532A3 /* Debug */,
+				03F52F3E1FE82DA100B532A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F52F3F1FE82DA100B532A3 /* Build configuration list for PBXNativeTarget "FreeM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F52F401FE82DA100B532A3 /* Debug */,
+				03F52F411FE82DA100B532A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F52F421FE82DA100B532A3 /* Build configuration list for PBXNativeTarget "FreeMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F52F431FE82DA100B532A3 /* Debug */,
+				03F52F441FE82DA100B532A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F52F451FE82DA100B532A3 /* Build configuration list for PBXNativeTarget "FreeMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F52F461FE82DA100B532A3 /* Debug */,
+				03F52F471FE82DA100B532A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03F52F1E1FE82DA100B532A3 /* FreeM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03F52F1F1FE82DA100B532A3 /* FreeM.xcdatamodel */,
+			);
+			currentVersion = 03F52F1F1FE82DA100B532A3 /* FreeM.xcdatamodel */;
+			path = FreeM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03F52F0C1FE82DA100B532A3 /* Project object */;
+}

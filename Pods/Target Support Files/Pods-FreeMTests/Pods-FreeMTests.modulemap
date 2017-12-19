@@ -1,0 +1,6 @@
+framework module Pods_FreeMTests {
+  umbrella header "Pods-FreeMTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
