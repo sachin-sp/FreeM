@@ -16,6 +16,10 @@
 		03F52F3B1FE82DA100B532A3 /* FreeMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F3A1FE82DA100B532A3 /* FreeMUITests.swift */; };
 		03F52F491FE835F800B532A3 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F481FE835F800B532A3 /* APIService.swift */; };
 		03F52F4B1FE8370E00B532A3 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F4A1FE8370E00B532A3 /* AppConstants.swift */; };
+		03F9F9BB1FEA9B0200B7BD6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F9F9BA1FEA9B0200B7BD6A /* LoginViewController.swift */; };
+		03F9F9BD1FEAAA5100B7BD6A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F9F9BC1FEAAA5100B7BD6A /* Extensions.swift */; };
+		03F9F9BF1FEACAD500B7BD6A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F9F9BE1FEACAD500B7BD6A /* HomeController.swift */; };
+		03F9F9C11FEAD2A600B7BD6A /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 03F9F9C01FEAD2A600B7BD6A /* Json.json */; };
 		3E3C0960E8413404912A7CEA /* Pods_FreeMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A8F2F5FA07D40A95832249 /* Pods_FreeMUITests.framework */; };
 		B6325710890E3BE0374C7B2B /* Pods_FreeMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241BCE9401A7C71E51EE2B8C /* Pods_FreeMTests.framework */; };
 		FB6186B109E1506160831722 /* Pods_FreeM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA69D788BFCE6733CF7E51BF /* Pods_FreeM.framework */; };
@@ -54,6 +58,10 @@
 		03F52F3C1FE82DA100B532A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03F52F481FE835F800B532A3 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		03F52F4A1FE8370E00B532A3 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		03F9F9BA1FEA9B0200B7BD6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		03F9F9BC1FEAAA5100B7BD6A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		03F9F9BE1FEACAD500B7BD6A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		03F9F9C01FEAD2A600B7BD6A /* Json.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Json.json; sourceTree = "<group>"; };
 		241BCE9401A7C71E51EE2B8C /* Pods_FreeMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C601F4CC117B5A7F72A4FB6 /* Pods-FreeMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeMUITests/Pods-FreeMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6CC68A72744CBDA90E05E546 /* Pods-FreeM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeM.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeM/Pods-FreeM.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,10 +130,14 @@
 				03F52F4A1FE8370E00B532A3 /* AppConstants.swift */,
 				03F52F171FE82DA100B532A3 /* AppDelegate.swift */,
 				03F52F191FE82DA100B532A3 /* ViewController.swift */,
+				03F9F9BA1FEA9B0200B7BD6A /* LoginViewController.swift */,
+				03F9F9BE1FEACAD500B7BD6A /* HomeController.swift */,
+				03F9F9C01FEAD2A600B7BD6A /* Json.json */,
 				03F52F211FE82DA100B532A3 /* Assets.xcassets */,
 				03F52F231FE82DA100B532A3 /* LaunchScreen.storyboard */,
 				03F52F261FE82DA100B532A3 /* Info.plist */,
 				03F52F1E1FE82DA100B532A3 /* FreeM.xcdatamodeld */,
+				03F9F9BC1FEAAA5100B7BD6A /* Extensions.swift */,
 			);
 			path = FreeM;
 			sourceTree = "<group>";
@@ -288,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03F52F251FE82DA100B532A3 /* LaunchScreen.storyboard in Resources */,
+				03F9F9C11FEAD2A600B7BD6A /* Json.json in Resources */,
 				03F52F221FE82DA100B532A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,11 +478,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F9F9BB1FEA9B0200B7BD6A /* LoginViewController.swift in Sources */,
 				03F52F4B1FE8370E00B532A3 /* AppConstants.swift in Sources */,
 				03F52F201FE82DA100B532A3 /* FreeM.xcdatamodeld in Sources */,
 				03F52F1A1FE82DA100B532A3 /* ViewController.swift in Sources */,
+				03F9F9BF1FEACAD500B7BD6A /* HomeController.swift in Sources */,
 				03F52F491FE835F800B532A3 /* APIService.swift in Sources */,
 				03F52F181FE82DA100B532A3 /* AppDelegate.swift in Sources */,
+				03F9F9BD1FEAAA5100B7BD6A /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

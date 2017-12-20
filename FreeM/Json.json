@@ -1,0 +1,1613 @@
+
+["topalbums": {
+ "@attr" =     {
+ page = 1;
+ perPage = 50;
+ total = 21687;
+ totalPages = 434;
+ user = RJ;
+ };
+ album =     (
+              {
+              "@attr" =             {
+              rank = 1;
+              };
+              artist =             {
+              mbid = "f90e8b26-9e52-4669-a5c9-e28529c47894";
+              name = "Snoop Dogg";
+              url = "https://www.last.fm/music/Snoop+Dogg";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/cf3a46415a1f4e9cce0f365af8225097.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/cf3a46415a1f4e9cce0f365af8225097.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/cf3a46415a1f4e9cce0f365af8225097.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/cf3a46415a1f4e9cce0f365af8225097.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "";
+              name = Doggystyle;
+              playcount = 396;
+              url = "https://www.last.fm/music/Snoop+Dogg/Doggystyle";
+              },
+              {
+              "@attr" =             {
+              rank = 2;
+              };
+              artist =             {
+              mbid = "1b8ed32a-294c-4224-a770-2c20b8a5b0c1";
+              name = "Blue Sky Black Death";
+              url = "https://www.last.fm/music/Blue+Sky+Black+Death";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/1e5ef1165e904436a5a244c936fb505c.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/1e5ef1165e904436a5a244c936fb505c.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/1e5ef1165e904436a5a244c936fb505c.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/1e5ef1165e904436a5a244c936fb505c.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "43ce1c37-af64-3074-a44f-1c16ee090043";
+              name = NOIR;
+              playcount = 331;
+              url = "https://www.last.fm/music/Blue+Sky+Black+Death/NOIR";
+              },
+              {
+              "@attr" =             {
+              rank = 3;
+              };
+              artist =             {
+              mbid = "5f6ab597-f57a-40da-be9e-adad48708203";
+              name = "Dr. Dre";
+              url = "https://www.last.fm/music/Dr.+Dre";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/995bb151f1a74f83cfd8e9df3f7d8205.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/995bb151f1a74f83cfd8e9df3f7d8205.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/995bb151f1a74f83cfd8e9df3f7d8205.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/995bb151f1a74f83cfd8e9df3f7d8205.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "db4baedf-bfe1-4e04-b359-99761f1b3deb";
+              name = 2001;
+              playcount = 326;
+              url = "https://www.last.fm/music/Dr.+Dre/2001";
+              },
+              {
+              "@attr" =             {
+              rank = 4;
+              };
+              artist =             {
+              mbid = "34cf95c7-4be9-4efd-a48a-c2ea4a0bb114";
+              name = America;
+              url = "https://www.last.fm/music/America";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/716e62c7152a4788bb47cfe7207b8521.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/716e62c7152a4788bb47cfe7207b8521.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/716e62c7152a4788bb47cfe7207b8521.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/716e62c7152a4788bb47cfe7207b8521.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "";
+              name = "Definitive Pop: America";
+              playcount = 283;
+              url = "https://www.last.fm/music/America/Definitive+Pop:+America";
+              },
+              {
+              "@attr" =             {
+              rank = 5;
+              };
+              artist =             {
+              mbid = "6da0515e-a27d-449d-84cc-00713c38a140";
+              name = "Skid Row";
+              url = "https://www.last.fm/music/Skid+Row";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/7c1466b37e364c5e86ccf199d292b178.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/7c1466b37e364c5e86ccf199d292b178.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/7c1466b37e364c5e86ccf199d292b178.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/7c1466b37e364c5e86ccf199d292b178.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "d0e21f12-d99e-4faa-b29e-1be1df53e234";
+              name = "Slave to the Grind";
+              playcount = 269;
+              url = "https://www.last.fm/music/Skid+Row/Slave+to+the+Grind";
+              },
+              {
+              "@attr" =             {
+              rank = 6;
+              };
+              artist =             {
+              mbid = "28503ab7-8bf2-4666-a7bd-2644bfc7cb1d";
+              name = "Dream Theater";
+              url = "https://www.last.fm/music/Dream+Theater";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/cf47afa9760249238e3269e61b5facb4.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/cf47afa9760249238e3269e61b5facb4.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/cf47afa9760249238e3269e61b5facb4.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/cf47afa9760249238e3269e61b5facb4.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "4b5a4d0e-1268-4ed5-8b48-6d0740053813";
+              name = "Images and Words";
+              playcount = 268;
+              url = "https://www.last.fm/music/Dream+Theater/Images+and+Words";
+              },
+              {
+              "@attr" =             {
+              rank = 7;
+              };
+              artist =             {
+              mbid = "83d91898-7763-47d7-b03b-b92132375c47";
+              name = "Pink Floyd";
+              url = "https://www.last.fm/music/Pink+Floyd";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/cdee664c355c4c9dbb0e7ba8db690064.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/cdee664c355c4c9dbb0e7ba8db690064.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/cdee664c355c4c9dbb0e7ba8db690064.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/cdee664c355c4c9dbb0e7ba8db690064.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "";
+              name = "Echoes - The Best Of Pink Floyd";
+              playcount = 267;
+              url = "https://www.last.fm/music/Pink+Floyd/Echoes+-+The+Best+Of+Pink+Floyd";
+              },
+              {
+              "@attr" =             {
+              rank = 8;
+              };
+              artist =             {
+              mbid = "614e3804-7d34-41ba-857f-811bad7c2b7a";
+              name = "Dire Straits";
+              url = "https://www.last.fm/music/Dire+Straits";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/cc8218235b6f438dbddd294d9022880e.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/cc8218235b6f438dbddd294d9022880e.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/cc8218235b6f438dbddd294d9022880e.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/cc8218235b6f438dbddd294d9022880e.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "e5e717df-5dc3-36f9-adbd-fff1b4aa2cef";
+              name = "Dire Straits";
+              playcount = 243;
+              url = "https://www.last.fm/music/Dire+Straits/Dire+Straits";
+              },
+              {
+              "@attr" =             {
+              rank = 9;
+              };
+              artist =             {
+              mbid = "822e92ef-72ea-42e0-9af1-b987816b487a";
+              name = Buckcherry;
+              url = "https://www.last.fm/music/Buckcherry";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/aefd2e86629d425c99f48bb37569cd17.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/aefd2e86629d425c99f48bb37569cd17.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/aefd2e86629d425c99f48bb37569cd17.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/aefd2e86629d425c99f48bb37569cd17.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "0cd61a9f-8adc-4141-9365-75eeae19ebca";
+              name = "Time Bomb";
+              playcount = 241;
+              url = "https://www.last.fm/music/Buckcherry/Time+Bomb";
+              },
+              {
+              "@attr" =             {
+              rank = 10;
+              };
+              artist =             {
+              mbid = "029fbb43-ea37-47a0-8c68-803d69abfa5e";
+              name = "Mayer Hawthorne";
+              url = "https://www.last.fm/music/Mayer+Hawthorne";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/c1e96f217c4c4d15a6d00fff66e21226.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/c1e96f217c4c4d15a6d00fff66e21226.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/c1e96f217c4c4d15a6d00fff66e21226.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/c1e96f217c4c4d15a6d00fff66e21226.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "15a0d39a-586d-4b1e-94ca-953f4cabacdc";
+              name = "How Do You Do";
+              playcount = 220;
+              url = "https://www.last.fm/music/Mayer+Hawthorne/How+Do+You+Do";
+              },
+              {
+              "@attr" =             {
+              rank = 11;
+              };
+              artist =             {
+              mbid = "ad0ecd8b-805e-406e-82cb-5b00c3a3a29e";
+              name = "Kid Rock";
+              url = "https://www.last.fm/music/Kid+Rock";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/9ac8971572c08034f79889391c74774d.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/9ac8971572c08034f79889391c74774d.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/9ac8971572c08034f79889391c74774d.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/9ac8971572c08034f79889391c74774d.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "caf9d8da-d295-37b8-938c-3bb92c769425";
+              name = "The History of Rock";
+              playcount = 218;
+              url = "https://www.last.fm/music/Kid+Rock/The+History+of+Rock";
+              },
+              {
+              "@attr" =             {
+              rank = 12;
+              };
+              artist =             {
+              mbid = "f73b2b70-33d5-4118-923b-05ba8ad7e702";
+              name = "The Kleptones";
+              url = "https://www.last.fm/music/The+Kleptones";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/ba2bc55a13cc4dd9824ef9ebb8f468f0.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/ba2bc55a13cc4dd9824ef9ebb8f468f0.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/ba2bc55a13cc4dd9824ef9ebb8f468f0.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/ba2bc55a13cc4dd9824ef9ebb8f468f0.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "4a1ef9e3-09d9-41e6-8ff3-e8bf26860ae8";
+              name = "A Night at the Hip Hopera";
+              playcount = 214;
+              url = "https://www.last.fm/music/The+Kleptones/A+Night+at+the+Hip+Hopera";
+              },
+              {
+              "@attr" =             {
+              rank = 13;
+              };
+              artist =             {
+              mbid = "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360";
+              name = "Bob Marley & The Wailers";
+              url = "https://www.last.fm/music/Bob+Marley+&+The+Wailers";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/e588abb451e854488dfe2a64a6e0aeb5.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/e588abb451e854488dfe2a64a6e0aeb5.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/e588abb451e854488dfe2a64a6e0aeb5.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/e588abb451e854488dfe2a64a6e0aeb5.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "7b1b8252-5674-4985-9d6e-fadad0a0adfc";
+              name = "Soul Rebels";
+              playcount = 209;
+              url = "https://www.last.fm/music/Bob+Marley+&+The+Wailers/Soul+Rebels";
+              },
+              {
+              "@attr" =             {
+              rank = 14;
+              };
+              artist =             {
+              mbid = "c89b768a-c92d-47c2-b97b-f5bbc732955c";
+              name = Rodriguez;
+              url = "https://www.last.fm/music/Rodriguez";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/b788451ab3594c81b77ff24e6f5d439f.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/b788451ab3594c81b77ff24e6f5d439f.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/b788451ab3594c81b77ff24e6f5d439f.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/b788451ab3594c81b77ff24e6f5d439f.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "193eddb6-6c3d-4bae-8a8e-77ef966889b0";
+              name = "Cold Fact";
+              playcount = 206;
+              url = "https://www.last.fm/music/Rodriguez/Cold+Fact";
+              },
+              {
+              "@attr" =             {
+              rank = 15;
+              };
+              artist =             {
+              mbid = "822e92ef-72ea-42e0-9af1-b987816b487a";
+              name = Buckcherry;
+              url = "https://www.last.fm/music/Buckcherry";
+              };
+              image =             (
+                                   {
+                                   "#text" = "";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "";
+              name = "Lit Up";
+              playcount = 204;
+              url = "https://www.last.fm/music/Buckcherry/Lit+Up";
+              },
+              {
+              "@attr" =             {
+              rank = 16;
+              };
+              artist =             {
+              mbid = "28503ab7-8bf2-4666-a7bd-2644bfc7cb1d";
+              name = "Dream Theater";
+              url = "https://www.last.fm/music/Dream+Theater";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/05442cefecfc46b4aeb6ea62a5366a5e.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/05442cefecfc46b4aeb6ea62a5366a5e.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/05442cefecfc46b4aeb6ea62a5366a5e.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/05442cefecfc46b4aeb6ea62a5366a5e.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "55d81be8-4009-432c-9abb-884e92446ac1";
+              name = "Once in a Livetime";
+              playcount = 204;
+              url = "https://www.last.fm/music/Dream+Theater/Once+in+a+Livetime";
+              },
+              {
+              "@attr" =             {
+              rank = 17;
+              };
+              artist =             {
+              mbid = "9e57e406-4fb1-40d0-bcd2-2aa1d6390c1d";
+              name = "Spock's Beard";
+              url = "https://www.last.fm/music/Spock%27s+Beard";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/05bcaf9603264f51b84b1bb5467801c3.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/05bcaf9603264f51b84b1bb5467801c3.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/05bcaf9603264f51b84b1bb5467801c3.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/05bcaf9603264f51b84b1bb5467801c3.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "68e91e43-be54-4af0-8550-91e4e03faf07";
+              name = "Day for Night";
+              playcount = 201;
+              url = "https://www.last.fm/music/Spock%27s+Beard/Day+for+Night";
+              },
+              {
+              "@attr" =             {
+              rank = 18;
+              };
+              artist =             {
+              mbid = "e01c3376-15fa-40d7-b747-5f219bdefdd7";
+              name = "Steely Dan";
+              url = "https://www.last.fm/music/Steely+Dan";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/1a77ce6d579b4ba5b0c5caa9a4606cf6.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/1a77ce6d579b4ba5b0c5caa9a4606cf6.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/1a77ce6d579b4ba5b0c5caa9a4606cf6.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/1a77ce6d579b4ba5b0c5caa9a4606cf6.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "7615b58e-c23d-496e-a6e0-a67c04ef9604";
+              name = "The Very Best Of Steely Dan";
+              playcount = 191;
+              url = "https://www.last.fm/music/Steely+Dan/The+Very+Best+Of+Steely+Dan";
+              },
+              {
+              "@attr" =             {
+              rank = 19;
+              };
+              artist =             {
+              mbid = "5e7ccd92-6277-451a-aab9-1efd587c50f3";
+              name = "Steve Vai";
+              url = "https://www.last.fm/music/Steve+Vai";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/e21f47105fbe451f8138dc1e30c32941.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/e21f47105fbe451f8138dc1e30c32941.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/e21f47105fbe451f8138dc1e30c32941.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/e21f47105fbe451f8138dc1e30c32941.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "";
+              name = "SEX & RELIGION";
+              playcount = 181;
+              url = "https://www.last.fm/music/Steve+Vai/SEX+&+RELIGION";
+              },
+              {
+              "@attr" =             {
+              rank = 20;
+              };
+              artist =             {
+              mbid = "faa5113f-b846-401e-a86d-11762a9da5ae";
+              name = Pornosonic;
+              url = "https://www.last.fm/music/Pornosonic";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/89c670accaa20ceab8f53f5dced75706.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/89c670accaa20ceab8f53f5dced75706.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/89c670accaa20ceab8f53f5dced75706.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/89c670accaa20ceab8f53f5dced75706.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "3fb9737e-c6a6-4bba-b948-a5ba574e7935";
+              name = "Cream Streets";
+              playcount = 180;
+              url = "https://www.last.fm/music/Pornosonic/Cream+Streets";
+              },
+              {
+              "@attr" =             {
+              rank = 21;
+              };
+              artist =             {
+              mbid = "2944824d-4c26-476f-a981-be849081942f";
+              name = "Nina Simone";
+              url = "https://www.last.fm/music/Nina+Simone";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/742e40bd3aa5e14e86842f457d7ece2c.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/742e40bd3aa5e14e86842f457d7ece2c.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/742e40bd3aa5e14e86842f457d7ece2c.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/742e40bd3aa5e14e86842f457d7ece2c.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "80400af0-ee7b-4035-8c25-72289160ac21";
+              name = "Nina Simone's Finest Hour";
+              playcount = 180;
+              url = "https://www.last.fm/music/Nina+Simone/Nina+Simone%27s+Finest+Hour";
+              },
+              {
+              "@attr" =             {
+              rank = 22;
+              };
+              artist =             {
+              mbid = "";
+              name = "Slamin' Gladys";
+              url = "https://www.last.fm/music/Slamin%27+Gladys";
+              };
+              image =             (
+                                   {
+                                   "#text" = "";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "";
+              name = title;
+              playcount = 180;
+              url = "https://www.last.fm/music/Slamin%27+Gladys/title";
+              },
+              {
+              "@attr" =             {
+              rank = 23;
+              };
+              artist =             {
+              mbid = "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3";
+              name = "Amy Winehouse";
+              url = "https://www.last.fm/music/Amy+Winehouse";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/bc4e31504f5f47adb31f36aa0889be45.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/bc4e31504f5f47adb31f36aa0889be45.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/bc4e31504f5f47adb31f36aa0889be45.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/bc4e31504f5f47adb31f36aa0889be45.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "0b0ca6cc-f793-3dd8-9329-611a9fb08ae2";
+              name = "Back to Black";
+              playcount = 179;
+              url = "https://www.last.fm/music/Amy+Winehouse/Back+to+Black";
+              },
+              {
+              "@attr" =             {
+              rank = 24;
+              };
+              artist =             {
+              mbid = "614e3804-7d34-41ba-857f-811bad7c2b7a";
+              name = "Dire Straits";
+              url = "https://www.last.fm/music/Dire+Straits";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/23611ca68703472e9295dec4213f5870.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/23611ca68703472e9295dec4213f5870.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/23611ca68703472e9295dec4213f5870.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/23611ca68703472e9295dec4213f5870.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "3a40201d-e7ba-3121-98cb-e2d57fa71736";
+              name = "Communiqu\U00e9";
+              playcount = 177;
+              url = "https://www.last.fm/music/Dire+Straits/Communiqu%C3%A9";
+              },
+              {
+              "@attr" =             {
+              rank = 25;
+              };
+              artist =             {
+              mbid = "bc641be9-ca36-4c61-9394-5230433f6646";
+              name = "Liquid Tension Experiment";
+              url = "https://www.last.fm/music/Liquid+Tension+Experiment";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/d07f62130fe24353a9689c87dc2560d2.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/d07f62130fe24353a9689c87dc2560d2.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/d07f62130fe24353a9689c87dc2560d2.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/d07f62130fe24353a9689c87dc2560d2.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "a15ca0b1-e016-47f5-ac84-965e11ff904a";
+              name = "Liquid Tension Experiment";
+              playcount = 174;
+              url = "https://www.last.fm/music/Liquid+Tension+Experiment/Liquid+Tension+Experiment";
+              },
+              {
+              "@attr" =             {
+              rank = 26;
+              };
+              artist =             {
+              mbid = "b7b79181-af53-4496-be15-a7b7d7cbe71c";
+              name = C2C;
+              url = "https://www.last.fm/music/C2C";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/66cf5a401c274f418e0c35268931d6ee.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/66cf5a401c274f418e0c35268931d6ee.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/66cf5a401c274f418e0c35268931d6ee.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/66cf5a401c274f418e0c35268931d6ee.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "8befc8d5-2418-459a-9001-85afb05a0aad";
+              name = Tetra;
+              playcount = 171;
+              url = "https://www.last.fm/music/C2C/Tetra";
+              },
+              {
+              "@attr" =             {
+              rank = 27;
+              };
+              artist =             {
+              mbid = "5a8e07d5-d932-4484-a7f7-e700793a9c94";
+              name = Robyn;
+              url = "https://www.last.fm/music/Robyn";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/2ff3d95d1e5e44d190ce256fea228d1e.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/2ff3d95d1e5e44d190ce256fea228d1e.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/2ff3d95d1e5e44d190ce256fea228d1e.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/2ff3d95d1e5e44d190ce256fea228d1e.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "a77ccda1-6132-4c14-a458-8672ebf00931";
+              name = "Body Talk";
+              playcount = 169;
+              url = "https://www.last.fm/music/Robyn/Body+Talk";
+              },
+              {
+              "@attr" =             {
+              rank = 28;
+              };
+              artist =             {
+              mbid = "eaf6a7ca-105d-4a94-ba02-8c3e4040319a";
+              name = "Rilo Kiley";
+              url = "https://www.last.fm/music/Rilo+Kiley";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/b4234ca6464042d78703957b1259411b.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/b4234ca6464042d78703957b1259411b.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/b4234ca6464042d78703957b1259411b.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/b4234ca6464042d78703957b1259411b.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "34f441cc-35a5-3ce6-987e-6b9073f2d726";
+              name = "Under The Blacklight";
+              playcount = 168;
+              url = "https://www.last.fm/music/Rilo+Kiley/Under+The+Blacklight";
+              },
+              {
+              "@attr" =             {
+              rank = 29;
+              };
+              artist =             {
+              mbid = "f90e8b26-9e52-4669-a5c9-e28529c47894";
+              name = "Snoop Dogg";
+              url = "https://www.last.fm/music/Snoop+Dogg";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/fb38d00de7df4288c25533ee3d28e0c5.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/fb38d00de7df4288c25533ee3d28e0c5.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/fb38d00de7df4288c25533ee3d28e0c5.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/fb38d00de7df4288c25533ee3d28e0c5.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "";
+              name = "Tha Doggfather";
+              playcount = 167;
+              url = "https://www.last.fm/music/Snoop+Dogg/Tha+Doggfather";
+              },
+              {
+              "@attr" =             {
+              rank = 30;
+              };
+              artist =             {
+              mbid = "5365f55c-b1e1-48f9-b09f-078f7a14cb1f";
+              name = Airbourne;
+              url = "https://www.last.fm/music/Airbourne";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/102a67068eee47dc99f5918e4c646ead.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/102a67068eee47dc99f5918e4c646ead.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/102a67068eee47dc99f5918e4c646ead.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/102a67068eee47dc99f5918e4c646ead.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "54f48d91-12e8-48c1-9f84-292e07b9faaa";
+              name = "Runnin' Wild";
+              playcount = 163;
+              url = "https://www.last.fm/music/Airbourne/Runnin%27+Wild";
+              },
+              {
+              "@attr" =             {
+              rank = 31;
+              };
+              artist =             {
+              mbid = "28503ab7-8bf2-4666-a7bd-2644bfc7cb1d";
+              name = "Dream Theater";
+              url = "https://www.last.fm/music/Dream+Theater";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/0f1e098abf7741d0c1c0e9cf4c79fb7f.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/0f1e098abf7741d0c1c0e9cf4c79fb7f.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/0f1e098abf7741d0c1c0e9cf4c79fb7f.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/0f1e098abf7741d0c1c0e9cf4c79fb7f.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "56805d04-50f5-49c9-ac0b-41a653d945c1";
+              name = "Falling Into Infinity";
+              playcount = 159;
+              url = "https://www.last.fm/music/Dream+Theater/Falling+Into+Infinity";
+              },
+              {
+              "@attr" =             {
+              rank = 32;
+              };
+              artist =             {
+              mbid = "ccd4879c-5e88-4385-b131-bf65296bf245";
+              name = "Echo & the Bunnymen";
+              url = "https://www.last.fm/music/Echo+&+the+Bunnymen";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/73551d3a1be04687833db28745f8bd97.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/73551d3a1be04687833db28745f8bd97.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/73551d3a1be04687833db28745f8bd97.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/73551d3a1be04687833db28745f8bd97.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "3f00a252-8731-389b-8118-6dedfa57f9e6";
+              name = Evergreen;
+              playcount = 157;
+              url = "https://www.last.fm/music/Echo+&+the+Bunnymen/Evergreen";
+              },
+              {
+              "@attr" =             {
+              rank = 33;
+              };
+              artist =             {
+              mbid = "d69ee229-2f36-494c-b104-9ae0d8be506b";
+              name = "Level 42";
+              url = "https://www.last.fm/music/Level+42";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/a9ccdb4521d84899c897a116d23f2c64.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/a9ccdb4521d84899c897a116d23f2c64.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/a9ccdb4521d84899c897a116d23f2c64.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/a9ccdb4521d84899c897a116d23f2c64.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "4498095f-3750-4d31-938e-486fe163de0a";
+              name = "The Very Best of Level 42";
+              playcount = 157;
+              url = "https://www.last.fm/music/Level+42/The+Very+Best+of+Level+42";
+              },
+              {
+              "@attr" =             {
+              rank = 34;
+              };
+              artist =             {
+              mbid = "3798b104-01cb-484c-a3b0-56adc6399b80";
+              name = "Rage Against the Machine";
+              url = "https://www.last.fm/music/Rage+Against+the+Machine";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/dbc00f6b1b5f4c8682d27678a91667dd.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/dbc00f6b1b5f4c8682d27678a91667dd.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/dbc00f6b1b5f4c8682d27678a91667dd.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/dbc00f6b1b5f4c8682d27678a91667dd.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "fa737b11-03c9-4f18-bcf9-a3ed4101c7fb";
+              name = "Rage Against the Machine";
+              playcount = 156;
+              url = "https://www.last.fm/music/Rage+Against+the+Machine/Rage+Against+the+Machine";
+              },
+              {
+              "@attr" =             {
+              rank = 35;
+              };
+              artist =             {
+              mbid = "5f6ab597-f57a-40da-be9e-adad48708203";
+              name = "Dr. Dre";
+              url = "https://www.last.fm/music/Dr.+Dre";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/6d49060026f44d69cd67a7cffa6e3092.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/6d49060026f44d69cd67a7cffa6e3092.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/6d49060026f44d69cd67a7cffa6e3092.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/6d49060026f44d69cd67a7cffa6e3092.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "51088001-d00c-384f-a266-315fd3ee797a";
+              name = "The Chronic";
+              playcount = 155;
+              url = "https://www.last.fm/music/Dr.+Dre/The+Chronic";
+              },
+              {
+              "@attr" =             {
+              rank = 36;
+              };
+              artist =             {
+              mbid = "650e7db6-b795-4eb5-a702-5ea2fc46c848";
+              name = "Lady Gaga";
+              url = "https://www.last.fm/music/Lady+Gaga";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/ed19225e16bfd582320ad9da3c65468d.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/ed19225e16bfd582320ad9da3c65468d.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/ed19225e16bfd582320ad9da3c65468d.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/ed19225e16bfd582320ad9da3c65468d.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "d1bcf9e5-a5e4-3f99-908c-610b2d0e33ed";
+              name = "The Fame";
+              playcount = 155;
+              url = "https://www.last.fm/music/Lady+Gaga/The+Fame";
+              },
+              {
+              "@attr" =             {
+              rank = 37;
+              };
+              artist =             {
+              mbid = "614e3804-7d34-41ba-857f-811bad7c2b7a";
+              name = "Dire Straits";
+              url = "https://www.last.fm/music/Dire+Straits";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/46bd2a8201ef4bb9cbf17448f0e27619.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/46bd2a8201ef4bb9cbf17448f0e27619.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/46bd2a8201ef4bb9cbf17448f0e27619.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/46bd2a8201ef4bb9cbf17448f0e27619.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "610e501e-9d50-3db5-accb-7ee892a8aab5";
+              name = "On Every Street";
+              playcount = 152;
+              url = "https://www.last.fm/music/Dire+Straits/On+Every+Street";
+              },
+              {
+              "@attr" =             {
+              rank = 38;
+              };
+              artist =             {
+              mbid = "b665b768-0d83-4363-950c-31ed39317c15";
+              name = "Van Halen";
+              url = "https://www.last.fm/music/Van+Halen";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/2a1cbda6fae017785ee007cddd676ea0.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/2a1cbda6fae017785ee007cddd676ea0.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/2a1cbda6fae017785ee007cddd676ea0.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/2a1cbda6fae017785ee007cddd676ea0.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "";
+              name = "The Very Best of Van Halen";
+              playcount = 147;
+              url = "https://www.last.fm/music/Van+Halen/The+Very+Best+of+Van+Halen";
+              },
+              {
+              "@attr" =             {
+              rank = 39;
+              };
+              artist =             {
+              mbid = "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab";
+              name = Metallica;
+              url = "https://www.last.fm/music/Metallica";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/cb0f59d62f256fd58b2163d90f334add.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/cb0f59d62f256fd58b2163d90f334add.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/cb0f59d62f256fd58b2163d90f334add.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/cb0f59d62f256fd58b2163d90f334add.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "6e729716-c0eb-3f50-a740-96ac173be50d";
+              name = Metallica;
+              playcount = 145;
+              url = "https://www.last.fm/music/Metallica/Metallica";
+              },
+              {
+              "@attr" =             {
+              rank = 40;
+              };
+              artist =             {
+              mbid = "88502cc3-20e7-4c5d-b583-ea84ed263db4";
+              name = "Alpha Blondy";
+              url = "https://www.last.fm/music/Alpha+Blondy";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/911c3c78b0bb444eb11118790d162709.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/911c3c78b0bb444eb11118790d162709.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/911c3c78b0bb444eb11118790d162709.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/911c3c78b0bb444eb11118790d162709.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "56e59710-7868-4b5d-be94-b86e6066c3c6";
+              name = "Jah Victory";
+              playcount = 144;
+              url = "https://www.last.fm/music/Alpha+Blondy/Jah+Victory";
+              },
+              {
+              "@attr" =             {
+              rank = 41;
+              };
+              artist =             {
+              mbid = "b7ffd2af-418f-4be2-bdd1-22f8b48613da";
+              name = "Nine Inch Nails";
+              url = "https://www.last.fm/music/Nine+Inch+Nails";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/eb3fb516fb7f4579c54d80d6d3c6e801.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/eb3fb516fb7f4579c54d80d6d3c6e801.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/eb3fb516fb7f4579c54d80d6d3c6e801.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/eb3fb516fb7f4579c54d80d6d3c6e801.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "3d039a02-231c-3c6c-a9ac-f89e60bf0329";
+              name = "And All That Could Have Been";
+              playcount = 141;
+              url = "https://www.last.fm/music/Nine+Inch+Nails/And+All+That+Could+Have+Been";
+              },
+              {
+              "@attr" =             {
+              rank = 42;
+              };
+              artist =             {
+              mbid = "dcb03ce3-67a5-4eb3-b2d1-2a12d93a38f3";
+              name = "B.B. King & Eric Clapton";
+              url = "https://www.last.fm/music/B.B.+King+&+Eric+Clapton";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/89de838b1dc3019afc79283043a60ae4.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/89de838b1dc3019afc79283043a60ae4.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/89de838b1dc3019afc79283043a60ae4.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/89de838b1dc3019afc79283043a60ae4.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "d5a20c73-650f-4e51-817a-2d2ce06d3475";
+              name = "Riding with the King";
+              playcount = 139;
+              url = "https://www.last.fm/music/B.B.+King+&+Eric+Clapton/Riding+with+the+King";
+              },
+              {
+              "@attr" =             {
+              rank = 43;
+              };
+              artist =             {
+              mbid = "c8f5272e-8a94-4807-9099-70181e92fc46";
+              name = "King's X";
+              url = "https://www.last.fm/music/King%27s+X";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/7ca92b9b14be711fbb3347b428468f51.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/7ca92b9b14be711fbb3347b428468f51.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/7ca92b9b14be711fbb3347b428468f51.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/7ca92b9b14be711fbb3347b428468f51.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "fb33464f-b1df-4d60-a806-0f9683d375a1";
+              name = Dogman;
+              playcount = 136;
+              url = "https://www.last.fm/music/King%27s+X/Dogman";
+              },
+              {
+              "@attr" =             {
+              rank = 44;
+              };
+              artist =             {
+              mbid = "d6e0e274-8e19-44ce-b5b2-52c12f8a674a";
+              name = "Led Zeppelin";
+              url = "https://www.last.fm/music/Led+Zeppelin";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/82b68b8267234a289714c0e20c4e288d.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/82b68b8267234a289714c0e20c4e288d.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/82b68b8267234a289714c0e20c4e288d.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/82b68b8267234a289714c0e20c4e288d.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "bc5a0db2-a123-4a29-bb75-de01c52da293";
+              name = "Led Zeppelin";
+              playcount = 135;
+              url = "https://www.last.fm/music/Led+Zeppelin/Led+Zeppelin";
+              },
+              {
+              "@attr" =             {
+              rank = 45;
+              };
+              artist =             {
+              mbid = "8bfac288-ccc5-448d-9573-c33ea2aa5c30";
+              name = "Red Hot Chili Peppers";
+              url = "https://www.last.fm/music/Red+Hot+Chili+Peppers";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/866a975e024d45e2ad50e3e0399dd45d.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/866a975e024d45e2ad50e3e0399dd45d.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/866a975e024d45e2ad50e3e0399dd45d.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/866a975e024d45e2ad50e3e0399dd45d.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "6d416ac9-4efb-4a2c-851d-0b3d117fda61";
+              name = "Blood Sugar Sex Magik";
+              playcount = 134;
+              url = "https://www.last.fm/music/Red+Hot+Chili+Peppers/Blood+Sugar+Sex+Magik";
+              },
+              {
+              "@attr" =             {
+              rank = 46;
+              };
+              artist =             {
+              mbid = "e49f69da-17d5-4c5c-bac0-dadcb0e588f5";
+              name = "Mark Knopfler";
+              url = "https://www.last.fm/music/Mark+Knopfler";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/f32a96da35e94bb38be570a1afaaf80a.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/f32a96da35e94bb38be570a1afaaf80a.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/f32a96da35e94bb38be570a1afaaf80a.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/f32a96da35e94bb38be570a1afaaf80a.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "0c82186b-d9a8-460a-9a8b-a79a5c70e7e1";
+              name = Privateering;
+              playcount = 134;
+              url = "https://www.last.fm/music/Mark+Knopfler/Privateering";
+              },
+              {
+              "@attr" =             {
+              rank = 47;
+              };
+              artist =             {
+              mbid = "8fbabd07-4b2b-4f4c-add5-680429a8c44a";
+              name = "Marcus Miller";
+              url = "https://www.last.fm/music/Marcus+Miller";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/54f5194c06d64e44ad46f9069c5183e5.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/54f5194c06d64e44ad46f9069c5183e5.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/54f5194c06d64e44ad46f9069c5183e5.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/54f5194c06d64e44ad46f9069c5183e5.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "e2f5969d-0397-4efb-aa53-ae44aaaa6f65";
+              name = "Original Album Classics";
+              playcount = 132;
+              url = "https://www.last.fm/music/Marcus+Miller/Original+Album+Classics";
+              },
+              {
+              "@attr" =             {
+              rank = 48;
+              };
+              artist =             {
+              mbid = "28503ab7-8bf2-4666-a7bd-2644bfc7cb1d";
+              name = "Dream Theater";
+              url = "https://www.last.fm/music/Dream+Theater";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/96e5ac5821bf4a138aec1b8f80f25a6f.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/96e5ac5821bf4a138aec1b8f80f25a6f.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/96e5ac5821bf4a138aec1b8f80f25a6f.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/96e5ac5821bf4a138aec1b8f80f25a6f.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "e5544c68-43e9-4754-9239-b618454557f4";
+              name = Awake;
+              playcount = 130;
+              url = "https://www.last.fm/music/Dream+Theater/Awake";
+              },
+              {
+              "@attr" =             {
+              rank = 49;
+              };
+              artist =             {
+              mbid = "65314b12-0e08-43fa-ba33-baaa7b874c15";
+              name = "Leonard Cohen";
+              url = "https://www.last.fm/music/Leonard+Cohen";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/cae56a0a5ef04b39cbc597cd7e012926.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/cae56a0a5ef04b39cbc597cd7e012926.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/cae56a0a5ef04b39cbc597cd7e012926.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/cae56a0a5ef04b39cbc597cd7e012926.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "e6050473-005e-43c4-a92b-2b5a19e3d85b";
+              name = "The Essential Leonard Cohen";
+              playcount = 128;
+              url = "https://www.last.fm/music/Leonard+Cohen/The+Essential+Leonard+Cohen";
+              },
+              {
+              "@attr" =             {
+              rank = 50;
+              };
+              artist =             {
+              mbid = "c89b768a-c92d-47c2-b97b-f5bbc732955c";
+              name = Rodriguez;
+              url = "https://www.last.fm/music/Rodriguez";
+              };
+              image =             (
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/34s/d049d5b9fce94e5f89345c6bd677e3a6.png";
+                                   size = small;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/64s/d049d5b9fce94e5f89345c6bd677e3a6.png";
+                                   size = medium;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/174s/d049d5b9fce94e5f89345c6bd677e3a6.png";
+                                   size = large;
+                                   },
+                                   {
+                                   "#text" = "https://lastfm-img2.akamaized.net/i/u/300x300/d049d5b9fce94e5f89345c6bd677e3a6.png";
+                                   size = extralarge;
+                                   }
+                                   );
+              mbid = "c418b20d-3d73-4796-8511-c0f77eb900c5";
+              name = "Coming From Reality";
+              playcount = 125;
+              url = "https://www.last.fm/music/Rodriguez/Coming+From+Reality";
+              }
+              );
+ }]
+(lldb)

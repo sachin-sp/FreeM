@@ -19,7 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        let loginVC = LoginViewController(collectionViewLayout: layout)
+        window?.rootViewController = UINavigationController(rootViewController: loginVC)
         
         return true
     }
