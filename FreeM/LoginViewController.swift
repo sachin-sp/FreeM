@@ -41,8 +41,6 @@ class LoginViewController: UICollectionViewController, UICollectionViewDelegateF
         defaults.set(username, forKey: "USER_NAME")
         defaults.synchronize()
         
-        let vc = HomeController()
-        vc.user = username
         navigationController?.pushViewController(HomeController(), animated: true)
         
     }
