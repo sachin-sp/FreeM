@@ -17,13 +17,13 @@ class HomeController: UICollectionViewController {
         super.viewDidLoad()
         
         navigationController?.navigationBar.prefersLargeTitles = true
-        navigationItem.title = "Albums"
+        navigationItem.title = "Library"
         collectionView?.register(AnnotatedPhotoCell.self, forCellWithReuseIdentifier: "AnnotatedPhotoCell")
         collectionView?.backgroundColor = .white
         fetchTopAlbums()
         refresh.addTarget(self, action: #selector(refresher), for: .valueChanged)
         collectionView?.addSubview(refresh)
-        collectionView?.contentInset = UIEdgeInsets(top: 23, left: 10, bottom: 10, right: 10)
+        collectionView?.contentInset = UIEdgeInsets(top: 33, left: 10, bottom: 10, right: 10)
         // Set the PinterestLayout delegate
         if let layout = collectionView?.collectionViewLayout as? PinterestLayout {
             layout.delegate = self
@@ -61,8 +61,7 @@ extension HomeController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AnnotatedPhotoCell", for: indexPath)
         if let annotateCell = cell as? AnnotatedPhotoCell {
-            //annotateCell.photo = photos[indexPath.item]
-            annotateCell.photo = album[indexPath.item].image?.last
+            annotateCell.setDataFor(album[indexPath.item])
         }
         return cell
     }
@@ -73,7 +72,6 @@ extension HomeController : PinterestLayoutDelegate {
     
     // 1. Returns the photo height
     func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath:IndexPath) -> CGFloat {
-        //return photos[indexPath.item].image.size.height
         
         return 200
     }
@@ -93,17 +91,6 @@ class AnnotatedPhotoCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    var photo: Image? {
-        didSet {
-
-            if let imageUrl = photo?.text {
-                if !imageUrl.isEmpty {
-                 imageView.loadImageUsingUrlString(imageUrl)
-                }
-            }
-        }
-    }
-    
     lazy var containerView: UIView = {
         let v = UIView()
         return v
@@ -114,13 +101,48 @@ class AnnotatedPhotoCell: UICollectionViewCell {
         return iv
     }()
     
+    lazy var artistNameLabel: UILabel = {
+        let l = UILabel()
+        l.textColor = .gray
+        return l
+    }()
+    
+    lazy var songNameLabel: UILabel = {
+        let l = UILabel()
+        return l
+    }()
+    
+    func setDataFor(_ album: Album?) {
+        guard let album = album else { return }
+        
+        if let artistName = album.artist?.name {
+            artistNameLabel.text = artistName
+        }
+        if let songName = album.name {
+            songNameLabel.text = songName
+        }
+        if let albumImage = album.image?.last {
+            if let imageUrl = albumImage.text {
+                if !imageUrl.isEmpty {
+                 imageView.loadImageUsingUrlString(imageUrl)
+                } else {
+                    imageView.image = UIImage(named: "album")
+                }
+            }
+        }
+    }
+    
     func setupView() {
         containerView.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
-        imageView.frame = CGRect(x: 0, y: 0, width: containerView.frame.width, height: containerView.frame.height)
+        imageView.frame = CGRect(x: 0, y: 0, width: containerView.frame.width, height: containerView.frame.height - 40)
+        songNameLabel.frame = CGRect(x: 0, y: imageView.frame.height + 3, width: containerView.frame.width, height: 21)
+        artistNameLabel.frame = CGRect(x: 0, y: imageView.frame.height + 3 + songNameLabel.frame.height, width: containerView.frame.width, height: 21)
         addSubview(containerView)
         containerView.addSubview(imageView)
-        containerView.layer.cornerRadius = 6
-        containerView.layer.masksToBounds = true
+        containerView.addSubview(songNameLabel)
+        containerView.addSubview(artistNameLabel)
+        imageView.layer.cornerRadius = 6
+        imageView.layer.masksToBounds = true
         
     }
     

@@ -19,9 +19,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .horizontal
-        let loginVC = LoginViewController(collectionViewLayout: layout)
+//        let layout = UICollectionViewFlowLayout()
+//        layout.scrollDirection = .horizontal
+//        let loginVC = LoginViewController(collectionViewLayout: layout)
+//        window?.rootViewController = UINavigationController(rootViewController: loginVC)
+        
+        let layout = PinterestLayout()
+        let loginVC = HomeController(collectionViewLayout: layout)
         window?.rootViewController = UINavigationController(rootViewController: loginVC)
         
         return true

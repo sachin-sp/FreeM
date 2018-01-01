@@ -62,6 +62,13 @@ class LoginViewController: UICollectionViewController, UICollectionViewDelegateF
         
         if indexPath.item < 3 {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! InitialTourCell
+            if indexPath.item == 0 {
+                cell.imageView.image = UIImage(named: "1")
+            } else if indexPath.item == 1 {
+                cell.imageView.image = UIImage(named: "2")
+            } else {
+                cell.imageView.image = UIImage(named: "3")
+            }
             return cell
         } else {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifierLogin, for: indexPath) as! LoginCell
@@ -152,9 +159,9 @@ class InitialTourCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    lazy var imageView: UIView = {
-       let iv = UIView()
-       iv.backgroundColor = .red
+    lazy var imageView: UIImageView = {
+       let iv = UIImageView()
+       //iv.backgroundColor = .red
        return iv
     }()
     

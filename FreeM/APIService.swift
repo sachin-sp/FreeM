@@ -73,9 +73,14 @@ class APISerive {
 struct Album {
     var artist: Artist?
     let image: [Image]?
+    var name: String?
     
     init(dictionary: NSDictionary) {
         self.artist = Artist(mbid: "", name: "", url: "")
+        self.name = ""
+        if let name = dictionary.object(forKey: "name") as? String {
+            self.name = name
+        }
         if let artist = dictionary.object(forKey: "artist") as? NSDictionary {
          self.artist = Artist(mbid: artist.object(forKey: "mbid") as? String, name: artist.object(forKey: "name") as? String, url: artist.object(forKey: "url") as? String)
         }
