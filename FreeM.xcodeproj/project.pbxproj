@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03274D481FF9FE2B0054B4F9 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03274D471FF9FE2B0054B4F9 /* PinterestLayout.swift */; };
 		03F52F181FE82DA100B532A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F171FE82DA100B532A3 /* AppDelegate.swift */; };
 		03F52F1A1FE82DA100B532A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F191FE82DA100B532A3 /* ViewController.swift */; };
 		03F52F201FE82DA100B532A3 /* FreeM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03F52F1E1FE82DA100B532A3 /* FreeM.xcdatamodeld */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03274D471FF9FE2B0054B4F9 /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		03F52F141FE82DA100B532A3 /* FreeM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F52F171FE82DA100B532A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03F52F191FE82DA100B532A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				03F52F481FE835F800B532A3 /* APIService.swift */,
 				03F52F4A1FE8370E00B532A3 /* AppConstants.swift */,
 				03F52F171FE82DA100B532A3 /* AppDelegate.swift */,
+				03274D471FF9FE2B0054B4F9 /* PinterestLayout.swift */,
 				03F52F191FE82DA100B532A3 /* ViewController.swift */,
 				03F9F9BA1FEA9B0200B7BD6A /* LoginViewController.swift */,
 				03F9F9BE1FEACAD500B7BD6A /* HomeController.swift */,
@@ -484,6 +487,7 @@
 				03F52F1A1FE82DA100B532A3 /* ViewController.swift in Sources */,
 				03F9F9BF1FEACAD500B7BD6A /* HomeController.swift in Sources */,
 				03F52F491FE835F800B532A3 /* APIService.swift in Sources */,
+				03274D481FF9FE2B0054B4F9 /* PinterestLayout.swift in Sources */,
 				03F52F181FE82DA100B532A3 /* AppDelegate.swift in Sources */,
 				03F9F9BD1FEAAA5100B7BD6A /* Extensions.swift in Sources */,
 			);

@@ -33,33 +33,8 @@ class APISerive {
         session.resume()
     }
     
-    func fetchTopAlbums() -> [String: Any] {
-        
-        var dict = [String: Any]()
-       
-        
-        let urlString = "http://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=rj&api_key=\(AppConstants.API.key)&format=json"
-        
-        let session = URLSession.shared.dataTask(with: URL(string: urlString)!, completionHandler: {data, res, error in
-            guard error == nil else { return }
-            guard let data =  data else { return }
-            do {
-                if let data = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String: Any] {
-                    dict = data
-                    print(data)
-                }
-            } catch let err{
-                print(err)
-            }
-        })
-        session.resume()
-        session.resume()
-        
-        return dict
-        
-    }
     
-    func fetchTopAlbumsds(completion: @escaping ([Album]?, Error?) -> ()) {
+    func fetchTopAlbums(completion: @escaping ([Album]?, Error?) -> ()) {
         
         var albums = [Album]()
         

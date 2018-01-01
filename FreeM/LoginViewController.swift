@@ -33,7 +33,7 @@ class LoginViewController: UICollectionViewController, UICollectionViewDelegateF
     
     func didLoginActionPerformedFor(_ username: String?, andPassword password: String?) {
         
-        guard let username = username, let password = password else { return }
+        guard let username = username, let _ = password else { return }
         
        _ = getSessionKeyFor("s4chin_", andPassword: "error501!")
         let defaults = UserDefaults.standard
@@ -41,7 +41,9 @@ class LoginViewController: UICollectionViewController, UICollectionViewDelegateF
         defaults.set(username, forKey: "USER_NAME")
         defaults.synchronize()
         
-        navigationController?.pushViewController(HomeController(), animated: true)
+        let layout = PinterestLayout()
+        
+        navigationController?.pushViewController(HomeController(collectionViewLayout: layout), animated: true)
         
     }
 

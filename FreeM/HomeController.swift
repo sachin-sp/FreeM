@@ -8,31 +8,39 @@
 
 import UIKit
 
-class HomeController: UITableViewController {
+class HomeController: UICollectionViewController {
 
     var album = [Album]()
     var refresh = UIRefreshControl()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
+        
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.title = "Albums"
+        collectionView?.register(AnnotatedPhotoCell.self, forCellWithReuseIdentifier: "AnnotatedPhotoCell")
+        collectionView?.backgroundColor = .white
         fetchTopAlbums()
         refresh.addTarget(self, action: #selector(refresher), for: .valueChanged)
-        tableView.addSubview(refresh)
+        collectionView?.addSubview(refresh)
+        collectionView?.contentInset = UIEdgeInsets(top: 23, left: 10, bottom: 10, right: 10)
+        // Set the PinterestLayout delegate
+        if let layout = collectionView?.collectionViewLayout as? PinterestLayout {
+            layout.delegate = self
+        }
         
     }
     
     func fetchTopAlbums() {
-        APISerive.shared.fetchTopAlbumsds { (album , error) in
+        APISerive.shared.fetchTopAlbums { (album , error) in
             
             if error == nil {
                 self.album = album!
-                print(album!)
             } else {
                 print(error!)
             }
             DispatchQueue.main.async {
-                self.tableView.reloadData()
+                self.collectionView?.reloadData()
             }
         }
     }
@@ -42,23 +50,78 @@ class HomeController: UITableViewController {
         refresh.endRefreshing()
     }
 
-    // MARK: - Table view data source
+}
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+extension HomeController {
+    
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.album.count
     }
-
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-        cell.textLabel?.text = self.album[indexPath.row].artist?.name
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AnnotatedPhotoCell", for: indexPath)
+        if let annotateCell = cell as? AnnotatedPhotoCell {
+            //annotateCell.photo = photos[indexPath.item]
+            annotateCell.photo = album[indexPath.item].image?.last
+        }
         return cell
     }
+}
+
+//MARK: - PINTEREST LAYOUT DELEGATE
+extension HomeController : PinterestLayoutDelegate {
+    
+    // 1. Returns the photo height
+    func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath:IndexPath) -> CGFloat {
+        //return photos[indexPath.item].image.size.height
+        
+        return 200
+    }
+    
+}
     
 
+class AnnotatedPhotoCell: UICollectionViewCell {
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupView()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    var photo: Image? {
+        didSet {
+
+            if let imageUrl = photo?.text {
+                if !imageUrl.isEmpty {
+                 imageView.loadImageUsingUrlString(imageUrl)
+                }
+            }
+        }
+    }
+    
+    lazy var containerView: UIView = {
+        let v = UIView()
+        return v
+    }()
+    
+    lazy var imageView: CustomImageView = {
+        let iv = CustomImageView()
+        return iv
+    }()
+    
+    func setupView() {
+        containerView.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
+        imageView.frame = CGRect(x: 0, y: 0, width: containerView.frame.width, height: containerView.frame.height)
+        addSubview(containerView)
+        containerView.addSubview(imageView)
+        containerView.layer.cornerRadius = 6
+        containerView.layer.masksToBounds = true
+        
+    }
+    
 }
