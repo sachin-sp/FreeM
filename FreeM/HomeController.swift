@@ -12,12 +12,13 @@ class HomeController: UICollectionViewController {
 
     var album = [Album]()
     var refresh = UIRefreshControl()
-    
+    let searchController = UISearchController(searchResultsController: nil)
     override func viewDidLoad() {
         super.viewDidLoad()
         
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.title = "Library"
+        navigationItem.searchController = searchController
         collectionView?.register(AnnotatedPhotoCell.self, forCellWithReuseIdentifier: "AnnotatedPhotoCell")
         collectionView?.backgroundColor = .white
         fetchTopAlbums()

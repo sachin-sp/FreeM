@@ -257,6 +257,16 @@ extension UINavigationItem {
         label.text = title + "\n" + subtitle
         self.titleView = label
     }
+    
+    func setTitleView(title: String){
+        let label = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: 480, height: 60))
+        label.backgroundColor = UIColor.clear
+        label.numberOfLines = 1
+        label.font = UIFont.systemFont(ofSize: 35, weight: UIFont.Weight.semibold)
+        label.textAlignment = .right
+        label.text = title
+        self.titleView = label
+    }
 }
 
 extension String {

@@ -7,7 +7,6 @@ target 'FreeM' do
 
   # Pods for FreeM
 pod 'CryptoSwift'
-pod 'Alamofire'
   target 'FreeMTests' do
     inherit! :search_paths
     # Pods for testing
